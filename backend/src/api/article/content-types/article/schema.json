@@ -31,12 +31,6 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "image": {
       "allowedTypes": [
         "images"
@@ -48,6 +42,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::writer.writer",
+      "inversedBy": "articles"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
       "inversedBy": "articles"
     }
   }

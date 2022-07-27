@@ -12,7 +12,7 @@ const Card = ({ article }) => {
           </div>
           <div className="uk-card-body">
             <p id="category" className="uk-text-uppercase">
-              {article.attributes.category.name}
+              {article.attributes.categories.name}
             </p>
             <p id="title" className="uk-text-large">
               {article.attributes.title}
