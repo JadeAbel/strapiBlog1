@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@exfabrica/strapi-plugin-awesome-help@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@exfabrica/strapi-plugin-awesome-help/-/strapi-plugin-awesome-help-1.0.8.tgz#41734c31125270e9aae4d285a5c043b1b5c94657"
+  integrity sha512-wfT1vieSEbfFUxJQG+JWUaXzc7LxG23ASdhGwO2soxyu56Fdv9E/kZYw4wl6A3WdmLsAQ8ICZrNI7AmSxc04eg==
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
