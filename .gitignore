@@ -149,7 +149,7 @@ schema.graphql
 # *.cache
 
 ############################
-# Visual Studio Code
+# Visual Studioode
 ############################
 
 front-workspace.code-workspace
@@ -248,5 +248,6 @@ coverage
 license.txt
 exports
 *.cache
+cache
 build
 .strapi-updater.json
